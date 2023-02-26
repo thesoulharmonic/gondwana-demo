@@ -24,14 +24,14 @@ You can find a version of the website deployed on Heroku at [https://gondwana-de
 
 This website makes use of the following packages and APIs
 
-[ReactJS] (https://reactjs.org/)
-[Express] (https://www.react.express/)
-[StripeAPI] (https://stripe.com/docs/stripe-js/react?locale=en-GB)
-[Redux] (https://redux.js.org/)
-[React-bootstrap] (https://react-bootstrap.github.io/)
-[CloudinaryAPI] (https://cloudinary.com/documentation/image_upload_api_reference)
-[Axios] (https://www.npmjs.com/package/axios)
-[Bcrypt] (https://www.npmjs.com/package/bcrypt)
+[ReactJS](https://reactjs.org/)
+[Express](https://www.react.express/)
+[StripeAPI](https://stripe.com/docs/stripe-js/react?locale=en-GB)
+[Redux](https://redux.js.org/)
+[React-bootstrap](https://react-bootstrap.github.io/)
+[CloudinaryAPI](https://cloudinary.com/documentation/image_upload_api_reference)
+[Axios](https://www.npmjs.com/package/axios)
+[Bcrypt](https://www.npmjs.com/package/bcrypt)
 
 You will need to create and add your own API keys to the .env file in the 'backend-main' folder. These include keys for MongoDB, Cloudinary and Stripe.
 
@@ -50,7 +50,7 @@ Your MongoDB will also need to be connected to your personal database by adding 
 
 The Coudinary API will alos need to be linked up in the frontend-main/pages/NewProduct.js & EditProductPage.js pages on line 63 by inputting your cloudName and uploadPreset values.
 
-[Cloudinary preset values] (https://cloudinary.com/documentation/upload_presets)
+[Cloudinary preset values](https://cloudinary.com/documentation/upload_presets)
 
 ## Security and authentication
 
