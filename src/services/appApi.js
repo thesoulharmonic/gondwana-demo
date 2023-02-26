@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const appApi = createApi({
   reducerPath: "appApi", // sets where api data will be set
-  baseQuery: fetchBaseQuery({ baseUrl: "https://gondwana-demo.onrender.com" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://gondwana-backend-demo.onrender.com" }),
   endpoints: (builder) => ({
     signup: builder.mutation({
       // define signup endpoint
