@@ -2,13 +2,13 @@
 
 Load each directory and install dependencies
 
-cd GondwanaRecords/backend-main
+cd GondwanaRecordsV2/backend-main
 npm install
 npm start 
 
 then
 
-cd GondwanaRecords/frontend-main
+cd GondwanaRecordsV2/frontend-main
 npm install
 
 In the front-end directory, you can then run:
@@ -18,7 +18,7 @@ npm start
 Runs the app in the development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
-You can find a version of the website deployed on Heroku at [http://codemesomething.com/gondwanarecords] (http://codemesomething.com/gondwanarecords)
+You can find a version of the website deployed on Heroku at [https://gondwana-demo.onrender.com/](https://gondwana-demo.onrender.com/)
 
 ## Packages and APIs used
 
