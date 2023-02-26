@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import { LinkContainer } from "react-router-bootstrap";
+import { Link } from "react-router-bootstrap";
 
 // react bootstrap carousel - https://react-bootstrap.github.io/components/carousel/
 
@@ -9,7 +9,7 @@ function CarouselMain() {
       
       {/* links to product */}
         <Carousel.Item interval={2500}>
-        <LinkContainer to="https://gondwana-demo.onrender.com/product/63f733ca51eff96ff23f2df6"> 
+        <Link to="https://gondwana-demo.onrender.com/product/63f733ca51eff96ff23f2df6"> 
 
           <img
             className="d-block w-100"
@@ -20,7 +20,7 @@ function CarouselMain() {
             <h3>Mammal Hands - A Gift From The Trees</h3>
             <p>The new studio release from Mammal Hands.</p>
           </Carousel.Caption>
-          </LinkContainer>
+          </Link>
 
         </Carousel.Item>
 
