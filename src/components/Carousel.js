@@ -9,7 +9,7 @@ function CarouselMain() {
       
       {/* links to product */}
         <Carousel.Item interval={2500}>
-        <a href="/product/63f733ca51eff96ff23f2df6"> 
+        <a href="https://gondwana-demo.onrender.com/product/63f733ca51eff96ff23f2df6"> 
 
           <img
             className="d-block w-100"
@@ -26,7 +26,7 @@ function CarouselMain() {
 
         <Carousel.Item interval={2500}> 
         {/* set interval of slide  */}
-        <a href="/product/63ed5640f5c28c5061132b05">
+        <a href="https://gondwana-demo.onrender.com/product/63ed5640f5c28c5061132b05">
 
           <img
             className="d-block w-100"
@@ -43,7 +43,7 @@ function CarouselMain() {
         </Carousel.Item>
 
         <Carousel.Item interval={2500}>
-        <a href="/product/63ed5600f5c28c5061132b01">
+        <a href="https://gondwana-demo.onrender.com/product/63ed5600f5c28c5061132b01">
 
           <img
             className="d-block w-100"
