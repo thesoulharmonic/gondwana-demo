@@ -1,0 +1,40 @@
+/* Import custom font */
+
+@font-face {
+  font-family: 'linottesemibold';
+  src: url('../public/font/linotte-semibold-webfont.woff') format('woff2'),
+       url('../public/font/linotte-semibold-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'linottesemibold', Helvetica,Arial,Lucida,sans-serif!important;
+}
+
+.navbar {
+  text-transform: uppercase;
+}
+
+.navbar a{
+  color:#000
+}
+
+.carousel-caption {
+  padding-bottom: 0.25rem!important;}
+
+  a {
+    color:#000 !important;
+    text-decoration: underline;
+}
+
+.artistWebsite {text-align: center;padding-top:20px}
+
+/* .artistPageDiscog {} */
+
+.artistPageDiscog .card {
+  display: inline-block;
+}
+.artistPageDiscog h2 {
+margin-left:10px}
+
