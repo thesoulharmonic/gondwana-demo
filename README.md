@@ -62,7 +62,7 @@ The Coudinary API will alos need to be linked up in the frontend-main/pages/NewP
 
 ## Security and authentication
 
-The website uses bcrypt to hash sensitive information before sending it to the server. Information on Bcryot can be found [here] (https://medium.com/boca-code/how-to-encrypt-password-in-your-react-app-before-you-send-it-to-the-api-6e10a06f0a8e)
+The website uses bcrypt to hash sensitive information before sending it to the server. Information on Bcryot can be found [here](https://medium.com/boca-code/how-to-encrypt-password-in-your-react-app-before-you-send-it-to-the-api-6e10a06f0a8e)
 
 The StripeAPI handles all card payments and forces all transactions through HTTPS - no card information is held by the website. 
 
